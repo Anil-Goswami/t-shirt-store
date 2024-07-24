@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   width: 100%;
+}
+.nav-menu ul li{
+    display: inline;
+    text-decoration: none; 
+  
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: rgb(11, 10, 10);
+    padding: 14px;
+  
+}
+.nav-menu ul li a:hover{
+    color:pink;
+    transition: 0.3s;
+}
+.nav-item{
+    transition-duration: 1s; 
+}
+.nav-item:hover{
+    padding-bottom: 3%;
+    border-bottom: 2px solid rgb(41, 39, 39);
+}
+.nav-menu{
+   padding-top: 40px;
+   width: 40%;
+}
+.site-logo{
+    padding-top: 40px; 
+    width: 20%;
+    text-align: center;
+}
+ 
+.log{
+    text-align: end;
+    padding-top: 40px; 
+     padding-right: 5%;
+    width: 40%;
+}
+#brand{
+    margin-right: 5%;
+}
+#pool{
+    scroll-behavior: smooth;
+}
+
+
+
+.color{
+    background-color: #FAEDEB;
+    position: relative; 
+    width: 40x; 
+    margin-top: 10px;
+}
+.back img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.para{
+   margin-top:  30%;
+}
+.para p{
+    color: #00000099;
+}
+.para h1{
+    font-weight: 600;
+    font-family: 'poppins,sans-serif';
+    font-size: 70px;
+}
+.shop{
+    background-color: black;
+    color: white;
+    height:45px;
+    width: 150px;
+}
+.shop:hover{
+    color: gray;
+    transition: 0.7s;
+}
+
+/* card */
+
+.collection{
+   margin-top: 90px;
+    text-align: center;
+}
+.collection p{
+    color: #00000099;
+}
+.Popular{
+   margin-top: 30px;
+   margin: 10px;
+}
+.card p{
+    color: #00000099;
+}
+.price{
+    padding-left: 15px;
+}
+.price h5{
+    margin-bottom: 10px;
+}
+.box{
+    margin-left: 30px;
+}
+#brand-r{
+    background-color: burlywood;
+    height: 25px;
+    width: 2px;
+}
+#brand-f{
+    background-color: #edebfa;
+    height: 25px;
+    width: 2px;
+}
+#brand-g{
+    background-color: black;
+    height: 25px;
+    width: 2px;
+}
+.base-collection{
+    margin-top: 100px;
+}
+.base{
+    text-align: center;
+    margin-top: 40px;
+}
+.base p{
+    color: #00000099;
+}
+.back{
+   background-image: url("https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/bg-01.jpg");
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-attachment: fixed;
+   margin-top: 70px;
+}
+.bm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed; 
+    background-color: #00000023;
+    
+}
+.new-collection{
+    padding: 16%;
+    text-align: center;
+}
+
+.hot{
+    background-color: rgba(238, 185, 213, 0.681);
+    margin-top: 150px;
+}
+.hot img{
+  margin-left: 280px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.shops{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right:2% ;
+}
+.shops:hover{
+    color: gray;
+    transition: 0.5s;
+}
+.summer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secs{
+    position: relative;
+    left: 1000;
+     margin-right: 100px;
+}
+
+
+.Review{
+    text-align: center;
+    margin-top: 90px;
+}
+.Review h2{
+    font-size: 45px;
+}
+.box-1{
+    background-image: url("https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/cat-men-300x300.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+.box-2{
+    background-image: url("https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/cat-women-300x300.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.white-box{
+    background-color: white;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.star{
+    color: orange;
+}
+.star p{
+    color: #00000099;
+}
+
+/* footer */
+.footer{
+    background-color: #FAEDEB;
+    width: 100%;
+}
+label {
+    display: block;
+    font:1rem 'Fira Sans',sans-serif;
+  }
+input,label {
+    margin: 9rem 0;
+}
+.hood{
+    text-align: center;
+    margin-top: 50px;
+}
+.hood h5{
+    text-align: center;
+    margin-top: 50px;
+}
+.search{
+    text-align: center;
+}
+#sea{
+    width: 90px;
+}
+.copy{
+    text-align: center;
+    background-color: black;
+}
+.copy p{
+    color: white;
+   height: 80px;
+}
+.ICONS{
+    text-align: center;
+   font-size: 24px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+/* buyshirt */
+.buy{
+    margin-top: 60px;
+}
+.more{
+    text-align: center;
+    margin-top: 50px;
+}
+.oooo{
+    height: 40px;
+    width: 220px;
+}
+
+/* about */
+.bac{
+    background-image: url("https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/bg-02.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-top: 70px;
+ }
+ .bn{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-attachment: fixed; 
+     background-color: #00000023;
+ }
+ .new-collections{
+     padding: 16%;
+ }
+ .about{
+    text-align: center;
+    margin-top: 50px;
+ }
+.box-0{
+ margin-top: 80px;
+    width: 100%;
+    background-color: #FAEDEB;
+   margin-top: 70px;
+}
+.bx{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.box-3{
+   margin-top: 80px;
+    padding-left: 60px;
+}
+
+/* contact */
+.contact{
+    text-align: center;
+    margin-top: 70px;
+}
+.map{
+    margin-top: 80px;
+}
+.map img{
+    gap: 0;
+}
+
+
+
+  
+
+
+
+
+
